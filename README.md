@@ -18,4 +18,7 @@
 ```bash
 $ git clone https://github.com/Law101/chat-server-with-async-rust-and-tokio.git
 $ cd your_project
-$ cargo build --release
+$ cargo run
+
+#### You can can crete a client to connect to the server using telnet
+$ telnet localhost 8080
